@@ -1,5 +1,5 @@
 html body {
-  background-image: url('/images/park-bg.png');
+  background-image: url('./images/park-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   line-height: 1.3;
@@ -50,7 +50,7 @@ h1 {
 /* Use custom fonts */
 @font-face {
   font-family: 'KGNoRegretsSketch';
-  src: url('/fonts/KGNoRegretsSketch.ttf');
+  src: url('./fonts/KGNoRegretsSketch.ttf');
 }
 
 h1, h2 {
@@ -59,7 +59,7 @@ h1, h2 {
 
 @font-face {
   font-family: 'SketchMeFreeVersion-qxyl';
-  src: url('/fonts/SketchMeFreeVersion-qxyl.ttf');
+  src: url('./fonts/SketchMeFreeVersion-qxyl.ttf');
 }
 
 h4 {

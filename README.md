@@ -1,10 +1,13 @@
 # sketch-address-book
 
-Site live to test at: 
+Note: you can see a test of the app at the link below but I haven't sorted Github Pages
+to load the background image and fonts yet.
+
+Site live to test at: https://chrtravels.github.io/sketch-address-book/ 
 
 Short video of app:  https://www.loom.com/share/0fbbee5b5043486fadaf781c5ed49369 
 
-Resources used:
+Resources used: 
 
 1. Wired Elements - to give a sketch style to the html elements
 2. Stock background image for page body to make it purty

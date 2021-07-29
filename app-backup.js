@@ -75,32 +75,26 @@ $(".deleteBtn").click(function() {
 }); 
 
 // jQuery Search Function (used most of a function from stack overflow. See README.md)
-$("#search-field").each(function() {
-
-  $(this).bind("propertychange keyup input cut paste", function() {
-    let txtVal = $(this).val();
-    $(".message").remove();
-    if (txtVal != "") {
-        $(".contact-table").show();
-        $.each($('.contact-table'), function (i, o) {
-            var match = $("td:contains-ci('" + txtVal + "')", this);
-            match.parent().siblings().hide();                 
-            if (match.length > 0) $(match).parent("tr").show();
-            else $(this).hide();
-        });
-    } else {
-        // When there is no input show everything
-        $("tbody > tr", this).show();
-    }
-    if($('.contact-table:visible').length == 0)
-    {
-        $('#search-field').after('<p class="message">Sorry No results found!!!</p>');
-    }
-    })
-
-})
-
-
+$("#search-field").keyup(function () {
+  let txtVal = $(this).val();
+  $(".message").remove();
+  if (txtVal != "") {
+      $(".contact-table").show();
+      $.each($('.contact-table'), function (i, o) {
+          var match = $("td:contains-ci('" + txtVal + "')", this);
+          match.parent().siblings().hide();                 
+          if (match.length > 0) $(match).parent("tr").show();
+          else $(this).hide();
+      });
+  } else {
+      // When there is no input show everything
+      $("tbody > tr", this).show();
+  }
+  if($('.contact-table:visible').length == 0)
+  {
+      $('#search-field').after('<p class="message">Sorry No results found!!!</p>');
+  }
+});
 
 // jQuery expression for case-insensitive filter
 $.extend($.expr[":"], {

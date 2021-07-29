@@ -1,5 +1,9 @@
 # sketch-address-book
 
+Site live to test at: 
+
+Short video of app:  https://www.loom.com/share/0fbbee5b5043486fadaf781c5ed49369 
+
 Resources used:
 
 1. Wired Elements - to give a sketch style to the html elements
@@ -18,5 +22,3 @@ Improvements that could be made:
 4. Return the contact list in alphabetical order when a new contact is added.
 5. Add an edit function
 6. Move the edit and delete functions to a modal, activated by a three dot button (...)
-
-Use jQuery .dialog box

@@ -1,5 +1,5 @@
 html body {
-  background-image: url('../images/park-bg.png');
+  background-image: url('./images/park-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   line-height: 1.3;

@@ -1,5 +1,5 @@
 html body {
-  background-image: url('/images/park-bg.png');
+  background-image: url('https://raw.githubusercontent.com/chrtravels/sketch-address-book/main/images/park-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   line-height: 1.3;
